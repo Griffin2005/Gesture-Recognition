@@ -34,7 +34,6 @@ Gesture-Recognition/
 ├── model.p                      # Pre-trained Random Forest model
 ├── README.md                    # Documentation 
 ├── requirements.txt             # List of dependencies
-└── assets/                      # Folder for images.
 ```
 
 ## **Installation**
@@ -42,6 +41,8 @@ Gesture-Recognition/
 ### **Prerequisites**
 1. Python 3.10 or later
 2. A working webcam
+
+FOLDERS FROM 0 TO 26 CONTAINS ALL THE DATA IMAGES FOR EACH ALPHABET (26 Folders for 26 Alphabets)
 
 ### **Steps**
 1. Clone the repository:
