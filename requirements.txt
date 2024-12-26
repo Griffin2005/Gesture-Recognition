@@ -1,0 +1,5 @@
+opencv-contrib-python : 4.10.0.84
+mediapipe : 0.10.20
+numpy : 1.26.4
+scikit-learn : 1.6.0
+threadpoolctl : 3.5.0
