@@ -88,6 +88,9 @@ FOLDERS FROM 0 TO 26 CONTAINS ALL THE DATA IMAGES FOR EACH ALPHABET (26 Folders 
 
 ---
 
+## **Flow of running the files**
+   DATA COLLECTION > DATA CREATION > TRAIN CLASSIFIER > INFERENCE CLASSIFIER > GUI
+
 ## **Customization**
 
 - **Adding New Gestures:**  
