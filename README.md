@@ -55,27 +55,8 @@ FOLDERS FROM 0 TO 26 CONTAINS ALL THE DATA IMAGES FOR EACH ALPHABET (26 Folders 
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Test your webcam setup:
-   ```bash
-   python gesture_recognition.py
-   ```
-
 ---
 
-## **Usage**
-
-### **Run the Gesture Recognition**
-Execute the following command to start the application:
-```bash
-python gesture_recognition.py
-```
-
-### **Run the GUI**
-Execute the following command to launch the GUI:
-```bash
-python gui.py
-```
 
 ### **Functionalities**
 1. **Gesture Detection:** Use gestures visible to the webcam.
