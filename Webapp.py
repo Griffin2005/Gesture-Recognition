@@ -74,3 +74,17 @@ if webrtc_ctx.video_transformer:
     st.markdown(f"### Last Detected Gesture: **{webrtc_ctx.video_transformer.predicted_character}**")
 else:
     st.markdown("### Waiting for camera...")
+
+from streamlit_webrtc import webrtc_streamer, WebRtcMode, RTCConfiguration
+
+RTC_CONFIGURATION = RTCConfiguration(
+    {"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]}
+)
+
+webrtc_ctx = webrtc_streamer(
+    key="gesture",
+    mode=WebRtcMode.SENDRECV,
+    rtc_configuration=RTC_CONFIGURATION,
+    video_processor_factory=YourClass,  # Your gesture processing class
+    async_processing=True,
+)
